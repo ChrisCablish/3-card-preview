@@ -2,7 +2,7 @@
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 
-![](./images/screenshot.pdf)
+[screenshot.pdf](https://github.com/ChrisCablish/3-card-preview/files/10572383/screenshot.pdf)
 
 Users should be able to:
 
