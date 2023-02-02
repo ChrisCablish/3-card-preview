@@ -8,14 +8,14 @@
     /*NEUTRAL COLORS*/
     --Transparent_white_paragraphs: hsla(0, 0%, 100%, 0.75);
     --Very_light_gray: hsl(0, 0%, 95%);
-
 }
+
+/*GLOBAL*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -26,9 +26,9 @@ body {
     background-color: var(--Very_light_gray);
 }
 
-   /*SECTION COLORS*/
+/*SECTION COLORS*/
 
-   .section.one {
+.section.one {
     background-color:  var(--Bright_orange);
 }
 
@@ -46,6 +46,58 @@ body {
     gap: 35px;
 }
 
+/*ICON*/
+
+.section img {
+    width: 23%;
+    height: auto;
+}
+
+/*HEADER*/
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    color: var(--Very_light_gray);
+}
+
+/*PARAGRAPH*/
+
+.section p,
+.section button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .9375em;
+    line-height: 1.8em;
+}
+
+.section p {
+    color: var(--Transparent_white_paragraphs);
+}
+
+/*BUTTON*/
+
+.section button {
+    background-color: var(--Very_light_gray);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/*BUTTON COLORS*/
+
+.section.one button {
+    color: var(--Bright_orange);
+}
+
+.section.two button {
+    color: var(--Dark_cyan);
+}
+
+.section.three button {
+    color: var(--Very_dark_cyan);
+}
+
 /*MOBILE*/
 
 @media screen and (max-width: 500px) {
@@ -57,65 +109,13 @@ body {
     }
 
     .section {
-        
         padding: 50px;
-        
     }
-
-
-
-    /*ICON*/
-
-    .section img {
-        width: 23%;
-        height: auto;
-    }
-
-    /*HEADER*/
-
-    h2 {
-        font-family: 'Big Shoulders Display', cursive;
-        text-transform: uppercase;
-        font-size: 2.3em;
-        color: var(--Very_light_gray);
-    }
-
-    /*PARAGRAPH*/
-
-    .section p,
-    .section button {
-        font-family: 'Lexend Deca', sans-serif;
-        font-size: .9375em;
-        line-height: 1.8em;
-    }
-
-    .section p {
-        color: var(--Transparent_white_paragraphs);
-    }
-
-    /*BUTTON*/
 
     .section button {
         width: 55%;
-        background-color: var(--Very_light_gray);
-        padding: 10px 20px;
-        border-radius: 20px;
-        border: none;
     }
 
-    .section.one button {
-        color: var(--Bright_orange);
-    }
-
-    .section.two button {
-        color: var(--Dark_cyan);
-    }
-
-    .section.three button {
-        color: var(--Very_dark_cyan);
-    }
-
-     
 }
     
 /*DESKTOP*/
@@ -133,58 +133,11 @@ body {
         padding: 60px;
     }
 
-
-
-    /*ICON*/
-
-    .section img {
-        width: 23%;
-        height: auto;
-    }
-
-    /*HEADER*/
-
-    h2 {
-        font-family: 'Big Shoulders Display', cursive;
-        text-transform: uppercase;
-        font-size: 2.3em;
-        color: var(--Very_light_gray);
-    }
-
-    /*PARAGRAPH*/
-
-    .section p,
-    .section button {
-        font-family: 'Lexend Deca', sans-serif;
-        font-size: .9375em;
-        line-height: 1.8em;
-    }
-
-    .section p {
-        color: var(--Transparent_white_paragraphs);
-    }
-
-    /*BUTTON*/
-
     .section button {
         width: 80%;
-        background-color: var(--Very_light_gray);
-        padding: 10px 20px;
-        border-radius: 20px;
-        border: none;
     }
 
-    .section.one button {
-        color: var(--Bright_orange);
-    }
 
-    .section.two button {
-        color: var(--Dark_cyan);
-    }
-
-    .section.three button {
-        color: var(--Very_dark_cyan);
-    }
 
    
     
