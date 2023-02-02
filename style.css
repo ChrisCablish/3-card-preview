@@ -1,7 +1,19 @@
+:root {
+    /*PRIMARY COLORS*/
+    --Bright_orange: hsl(31, 77%, 52%);
+    --Dark_cyan: hsl(184, 100%, 22%);
+    --Very_dark_cyan: hsl(179, 100%, 13%);
+    /*NEUTRAL COLORS*/
+    --Transparent_white_paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very_light_gray: hsl(0, 0%, 95%);
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -9,12 +21,14 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: var(--Very_light_gray);
 }
 
 h2 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2em;
+    color: var(--Very_light_gray);
 }
 
 p,
@@ -24,20 +38,69 @@ button {
     line-height: 1.5em;
 }
 
+p {
+    color: var(--Transparent_white_paragraphs);
+}
+
+
+.section img {
+    width: 20%;
+    height: auto;
+}
+
+.section.one {
+    background-color:  var(--Bright_orange);
+}
+
+.section.two {
+    background-color: var(--Dark_cyan);
+}
+
+.section.three {
+    background-color: var(--Very_dark_cyan);
+}
+
+.section button {
+    width: 50%;
+    background-color: var(--Very_light_gray);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.section.one button {
+    color: var(--Bright_orange);
+}
+
+.section.two button {
+    color: var(--Dark_cyan);
+}
+
+.section.three button {
+    color: var(--Very_dark_cyan);
+}
+
+
 
 
 @media screen and (max-width: 700px) {
     main {
         width: 90%;
-        border: 1px solid black;
+        margin:40px 0px;
+        
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .section {
         display: flex;
         flex-direction: column;
+        padding: 30px;
+        gap: 20px;
     }
-    
-    
-
+     
 }
     
