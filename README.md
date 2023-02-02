@@ -4,6 +4,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 [screenshot.pdf](https://github.com/ChrisCablish/3-card-preview/files/10572383/screenshot.pdf)
 
+[![screenshot.png](https://i.postimg.cc/CLQY8MQ1/screenshot.png)](https://postimg.cc/kBKk3C93)
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
