@@ -88,14 +88,38 @@ h2 {
 
 .section.one button {
     color: var(--Bright_orange);
+    border: 1px solid var(--Bright_orange);
 }
 
 .section.two button {
     color: var(--Dark_cyan);
+    border: 1px solid var(--Dark_cyan);
 }
 
 .section.three button {
     color: var(--Very_dark_cyan);
+    border: 1px solid var(--Very_dark_cyan);
+}
+
+/*BUTTON HOVER*/
+
+.section.one button:hover {
+    background-color: var(--Bright_orange);
+    
+}
+.section.two button:hover {
+    background-color: var(--Dark_cyan);
+    
+}
+.section.three button:hover {
+    background-color: var(--Very_dark_cyan);
+    
+}
+
+.section button:hover {
+    color: var(--Very_light_gray);
+    border: 1px solid var(--Very_light_gray);
+    cursor: pointer;
 }
 
 /*MOBILE*/
@@ -134,7 +158,7 @@ h2 {
     }
 
     .section button {
-        width: 80%;
+        width: 75%;
     }
 
 
