@@ -1,3 +1,5 @@
+/*COLORS*/
+
 :root {
     /*PRIMARY COLORS*/
     --Bright_orange: hsl(31, 77%, 52%);
@@ -24,30 +26,7 @@ body {
     background-color: var(--Very_light_gray);
 }
 
-h2 {
-    font-family: 'Big Shoulders Display', cursive;
-    text-transform: uppercase;
-    font-size: 2.3em;
-    color: var(--Very_light_gray);
-}
-
-.section p,
-.section button {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: .9375em;
-    line-height: 1.8em;
-}
-
-
-p {
-    color: var(--Transparent_white_paragraphs);
-}
-
-
-.section img {
-    width: 23%;
-    height: auto;
-}
+/*SECTION COLORS*/
 
 .section.one {
     background-color:  var(--Bright_orange);
@@ -61,12 +40,40 @@ p {
     background-color: var(--Very_dark_cyan);
 }
 
-.section button {
-    width: 50%;
-    background-color: var(--Very_light_gray);
+/*ICON*/
+
+.section img {
+    width: 23%;
+    height: auto;
 }
 
-button {
+/*HEADER*/
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    color: var(--Very_light_gray);
+}
+
+/*PARAGRAPH*/
+
+.section p,
+.section button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .9375em;
+    line-height: 1.8em;
+}
+
+.section p {
+    color: var(--Transparent_white_paragraphs);
+}
+
+/*BUTTON*/
+
+.section button {
+    width: 55%;
+    background-color: var(--Very_light_gray);
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
@@ -84,8 +91,7 @@ button {
     color: var(--Very_dark_cyan);
 }
 
-
-
+/*MOBILE*/
 
 @media screen and (max-width: 700px) {
     main {
